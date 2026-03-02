@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Products | varietyjewels_np</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif;}
+body{background:#f5f5f5;}
+nav{position:sticky;top:0;background:black;padding:15px 60px;display:flex;justify-content:space-between;}
+nav h2{color:white;}
+nav ul{list-style:none;display:flex;gap:25px;}
+nav a{text-decoration:none;color:white;}
+
+.products{padding:60px 80px;text-align:center;}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:25px;}
+
+.card{
+    background:white;
+    padding:20px;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    transition:0.4s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+    border-radius:10px;
+}
+
+.card h3{margin-top:15px;}
+.card p{margin-top:8px;line-height:1.5;}
+
+button{
+    margin-top:10px;
+    padding:8px 18px;
+    background:black;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    background:silver;
+    color:black;
+}
+
+footer{background:black;color:white;text-align:center;padding:20px;margin-top:40px;}
+</style>
+</head>
+<body>
+
+<nav>
+<h2>varietyjewels_np</h2>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="product.html">Products</a></li>
+</ul>
+</nav>
+
+<section class="products">
+<h1>Our Collection</h1>
+
+<div class="grid">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f">
+<h3>Stainless Steel Ring</h3>
+<p>Minimal polished ring perfect for everyday elegance.</p>
+<p><strong>Rs. 499</strong></p>
+<button>Buy Now</button>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1588444650700-6e2e1a5cde90">
+<h3>Stainless Steel Locket</h3>
+<p>Modern stainless steel locket with timeless shine.</p>
+<p><strong>Rs. 799</strong></p>
+<button>Buy Now</button>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1617038220319-276d3cfab638">
+<h3>Stainless Steel Bangle</h3>
+<p>Sleek and durable bangle designed for daily wear.</p>
+<p><strong>Rs. 550</strong></p>
+<button>Buy Now</button>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1605100804763-247f67b3557e">
+<h3>Stainless Steel Earrings</h3>
+<p>Elegant lightweight earrings with premium finish.</p>
+<p><strong>Rs. 499</strong></p>
+<button>Buy Now</button>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1611080626919-7cf5a9f7f0a5">
+<h3>Stainless Steel Necklace</h3>
+<p>Luxury stainless steel necklace with smooth polish.</p>
+<p><strong>Rs. 999</strong></p>
+<button>Buy Now</button>
+</div>
+
+</div>
+</section>
+
+<footer>
+© 2026 varietyjewels_np | All Rights Reserved
+</footer>
+
+</body>
+</html>
